@@ -71,7 +71,7 @@ app.post('/login', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.send('EJ NAHUJ!');
+    res.send('Hi!');
    });
 
 app.listen(port, () => {
